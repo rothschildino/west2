@@ -1,5 +1,5 @@
 import './App.css'
-import Header from './UI/header'
+import Header from './UI/Header'
 
 function App() {
 
@@ -7,6 +7,7 @@ function App() {
 
     <div >
       <Header />
+
     </div>
 
   )
