@@ -1,4 +1,3 @@
-import React from 'react'
 import banner from './banner.module.css'
 
 const Banner = () => {
