@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+.photo  img{
+    width: 130px;
+}
+
+p {
+    margin: 5px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 130px;
+    margin: 0;
+    box-sizing: border-box;
+
+    position: relative;
+}
+
+.productAll {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    color: gray;
+}
+
+.price {
+    color: orange;
+    font-weight: bold;
+
+    border-width: 1px;
+    border-color: black;
+}
+
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Animation */
+
+.product::before { 
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    border: 5px rgb(175, 174, 174) solid;
+}
+
+.hoverArea {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 25%;
+
+    display: block;
+    width: auto;
+    align-items: center;
+
+    opacity: 0;
+    transition: all .25s ease-out 0s;
+}
+
+
+.product:hover ~ .hoverArea {
+    opacity: 1;
+    top: 15px;
+}
+
+.productAll:hover ~ .hoverArea {
+    opacity: 1;
+    top: 15px;
+}
+
+
+.hoverArea button {
+    padding: 7px 25px;
+    background-color: transparent;
+    border: 3px solid orange;
+    border-radius: 90px;
+}

@@ -7,3 +7,20 @@
 .logo img {
     width: 200px;
 }
+
+.logo p, h1 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.logo p {
+    margin-left: 7px;
+}
+
+.search input {
+    padding: 10px 50px;
+    border-radius: 0px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: orange;
+}

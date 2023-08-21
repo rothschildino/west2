@@ -1,5 +1,8 @@
 import './App.css'
 import Header from './UI/Header'
+import Banner from './UI/components/Banner/Banner'
+import Products from './UI/components/UI/products'
+
 
 function App() {
 
@@ -7,7 +10,8 @@ function App() {
 
     <div >
       <Header />
-
+      <Banner />
+      <Products />
     </div>
 
   )

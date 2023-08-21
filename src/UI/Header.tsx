@@ -6,11 +6,12 @@ function Header() {
     <div className='container'>
          <div className={header.header}>
             <div className={header.logo}>
-                <img src="https://s3.eu-central-1.amazonaws.com/listmusor/production/185169/logo/big/5cc162ba3847d.png" alt="" />
+                <h1>West</h1>
+                <p>запчастина</p>
             </div>
-
-            <div className='search'>
-                <input type="text" />
+              
+            <div className={header.search}>
+                <input type="text" placeholder='Пошук товарів' />
             </div>
         </div>
     </div>

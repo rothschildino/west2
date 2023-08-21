@@ -2,9 +2,11 @@ import banner from './banner.module.css'
 
 const Banner = () => {
   return (
-    <div className={banner.container}>
-
+    <div className='container'>
+      <div className={banner.container}>
+      </div>
     </div>
+    
   )
 }
 
