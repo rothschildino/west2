@@ -11,16 +11,26 @@
 .logo p, h1 {
     margin: 0;
     font-weight: bold;
+    line-height: 1em;
 }
 
 .logo p {
     margin-left: 7px;
+    font-size: 12px;
 }
 
-.search input {
+.search {
     padding: 10px 50px;
     border-radius: 0px;
     border-width: 2px;
     border-style: solid;
-    border-color: orange;
+    border-color:#e8e8e8;
+    outline: none;
+
+    transition: all 0.25s ease-out;
+}
+
+.search:focus {
+    border-radius: 0;
+    border: 2px solid orange;
 }

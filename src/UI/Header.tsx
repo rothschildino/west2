@@ -1,6 +1,8 @@
 import header from './header.module.css'
 import "../App.css"
 
+import Search from './components/UI/search';
+
 function Header() {
   return (
     <div className='container'>
@@ -10,9 +12,7 @@ function Header() {
                 <p>запчастина</p>
             </div>
               
-            <div className={header.search}>
-                <input type="text" placeholder='Пошук товарів' />
-            </div>
+            <Search />
         </div>
     </div>
   )

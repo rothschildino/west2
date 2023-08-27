@@ -1,0 +1,22 @@
+.input {
+    padding: 1em;
+    color: #939393;
+    font-size: 1em;
+    border: 2px solid #e7e7e7;
+    border-right: 0;
+    line-height: 1em;
+    outline: none;
+}
+
+.inputGroup {
+    position: relative;
+    display: flex;
+}
+
+.button {
+    background-color: orange;
+    height: 100%;
+    padding: 0 1.5em;
+    cursor: pointer;
+    border: 0;
+}

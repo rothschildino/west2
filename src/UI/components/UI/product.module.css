@@ -15,11 +15,21 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    width: 130px;
+
+    /* !!!! */
+    width: 178.333px;
+
     margin: 0;
     box-sizing: border-box;
 
     position: relative;
+
+    border: 0.5px solid rgb(235, 234, 234);
+    border-bottom: 0;
+    border-top: 0;
+
+
+    
 }
 
 .productAll {
@@ -27,15 +37,21 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+    flex-wrap: wrap;
+    
 }
 
 .name {
     color: gray;
+    font-size: 1em;
+    font-weight: 400;
 }
 
 .price {
     color: orange;
     font-weight: bold;
+    font-size: 1.143em;
 
     border-width: 1px;
     border-color: black;
@@ -49,46 +65,75 @@ p {
 
 /* Animation */
 
-.product::before { 
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    opacity: 0;
-    border: 5px rgb(175, 174, 174) solid;
+.button {
+    padding: .74em 1.41575em;
+    border: 2px orange solid;
+    border-radius: 0;
+    background-color: white;
+    color: orange;
+    font-weight: 600;
+}
+
+.button:hover {
+    background-color: orange;
+    color: white;
+}
+
+#button {
+    cursor: pointer;
 }
 
 .hoverArea {
-    position: relative;
-    left: 0;
-    right: 0;
-    top: 25%;
 
-    display: block;
-    width: auto;
+    padding-left: 4px;
+    padding-right: 4px;
+
+    width: 100%;
+
+
+    position: relative;
+    z-index: 5;
+    top: 20px;
+
+
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
     align-items: center;
 
+    visibility: hidden;
     opacity: 0;
-    transition: all .25s ease-out 0s;
+
+    border: 2px solid rgb(235, 234, 234);
+    border-top: 0;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+    
+    transition: all 0.25s ease-out;
+
+   
 }
 
 
-.product:hover ~ .hoverArea {
+
+#animation:hover #hoverArea {
+
+    top: 0px;
+    visibility: visible;
     opacity: 1;
-    top: 15px;
+
+    border: 2px solid rgb(235, 234, 234);
+    border-top: 0;
+
 }
 
-.productAll:hover ~ .hoverArea {
-    opacity: 1;
-    top: 15px;
+#animation:hover #product {
+    border-top: 2px solid rgb(235, 234, 234);;
 }
 
 
-.hoverArea button {
-    padding: 7px 25px;
-    background-color: transparent;
-    border: 3px solid orange;
-    border-radius: 90px;
-}
+
