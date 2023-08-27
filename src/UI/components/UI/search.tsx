@@ -1,4 +1,3 @@
-import React from 'react'
 import design from './search.module.css'
 import { BiSearch } from "react-icons/bi";
 
