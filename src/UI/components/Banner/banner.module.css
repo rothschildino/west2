@@ -7,7 +7,7 @@ p, h1 {
 .container {
     margin-top: 50px;
     margin-bottom: 50px;
-    background-color: #e8e8e8;
+    background-color: #e7e7e7;
     height: 400px;
 
     
@@ -52,3 +52,5 @@ p, h1 {
 .photo img {
     width: 100%;
 }
+
+

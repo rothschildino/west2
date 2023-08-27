@@ -34,3 +34,23 @@
     border-radius: 0;
     border: 2px solid orange;
 }
+
+.logoInfo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+@media (max-width:767px) { 
+
+    .header {
+        flex-direction: column;
+        
+    }
+
+    .logoInfo {
+        margin-bottom: 15px;
+    }
+}

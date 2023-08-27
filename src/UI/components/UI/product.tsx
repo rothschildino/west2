@@ -3,7 +3,7 @@ import design from './product.module.css'
 const product = () => {
   return (
     <div className={design.productAll} id={design.animation}>
-      <div className={design.product} id={design.product}>
+      <a className={design.product} id={design.product}>
 
           <div className={design.photo}>
               <img src="https://www.hydrohouse.ua/wp-content/uploads/2022/05/adapter_bsp.png.webp" alt="" />
@@ -11,7 +11,7 @@ const product = () => {
         <div className={design.name}><p>Адаптер</p></div>
         <div className={design.price}><p>12000 грн</p></div>
 
-      </div>
+      </a>
 
       <div className={design.hoverArea} id={design.hoverArea}>
 
