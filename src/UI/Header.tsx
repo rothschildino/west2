@@ -17,7 +17,7 @@ function Header() {
               <h1>West</h1>
               <p>запчастина</p>
             </div>
-            <BiSolidInfoSquare  />
+            <BiSolidInfoSquare size='2em' color='grey' />
           </div>
 
           <Search />

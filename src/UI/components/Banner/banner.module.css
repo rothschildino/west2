@@ -53,4 +53,20 @@ p, h1 {
     width: 100%;
 }
 
+.mapText {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width:767px) { 
+
+    .photo {
+        left: -300%;
+    }
+
+    .text {
+        align-items: center;
+    }
+    
+}
 

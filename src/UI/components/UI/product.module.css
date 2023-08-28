@@ -159,6 +159,11 @@ p {
         padding-bottom: 20px;
     }
 
+    .hoverArea {
+        position: absolute;
+        left: -500%;
+    }
+
     #animation:hover #hoverArea {
 
         visibility: hidden;

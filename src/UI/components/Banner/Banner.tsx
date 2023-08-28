@@ -1,4 +1,6 @@
 import banner from './banner.module.css'
+import { BiMap } from "react-icons/bi";
+
 
 const Banner = () => {
   return (
@@ -22,8 +24,8 @@ const Banner = () => {
               <p>+380 352 22 38 38</p>
             </div>
             
-            <div>
-              вулиця Гріга, 1
+            <div className={banner.mapText}>
+              <BiMap /><p>вулиця Гріга, 1</p>
             </div>
           </div>
           <div className={banner.photo}>

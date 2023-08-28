@@ -8,7 +8,7 @@ const search = () => {
             <input type="text" className={design.input} placeholder='Шукати...'/>
         </form>
         <div>
-            <button type='submit' className={design.button}><BiSearch /></button>
+            <button type='submit' className={design.button}><BiSearch size='1.5em' color='white' /></button>
         </div>
     </div>
     
