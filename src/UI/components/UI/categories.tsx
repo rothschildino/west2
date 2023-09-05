@@ -1,4 +1,3 @@
-import React from 'react'
 import Category from './category'
 import design from './category.module.css'
 

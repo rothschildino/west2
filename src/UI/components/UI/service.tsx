@@ -1,4 +1,3 @@
-import React from 'react'
 import design from './service.module.css'
 
 const service = () => {

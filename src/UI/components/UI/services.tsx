@@ -1,4 +1,3 @@
-import React from 'react'
 import Service from './service'
 import design from './service.module.css'
 
