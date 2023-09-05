@@ -8,7 +8,7 @@ const product = () => {
           <div className={design.photo}>
               <img src="https://www.hydrohouse.ua/wp-content/uploads/2022/05/adapter_bsp.png.webp" alt="" />
           </div>
-        <div className={design.name}><p>Адаптер1222223333</p></div>
+        <div className={design.name}><p>Адаптер1</p></div>
         <div className={design.price}><p>12000 грн</p></div>
 
       </a>
