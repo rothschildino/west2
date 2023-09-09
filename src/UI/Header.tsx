@@ -1,5 +1,5 @@
 import header from './header.module.css'
-import "../App.css"
+import "./pages/App.css"
 
 import Search from './components/UI/search';
 
