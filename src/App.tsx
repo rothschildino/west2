@@ -1,4 +1,4 @@
-import MainPage from "./UI/pages/mainPage"
+// import MainPage from "./UI/pages/mainPage"
 import ProductPage from "./UI/pages/productPage"
 
 
